@@ -65,8 +65,8 @@ marquee {
 
 @media (max-width: 450px) {
     .coracao {
-        left: 19%;
-        margin: 100% 0 0 0;
+        left: 20%;
+        margin: 50% 0 0 0;
     }
     marquee {
         margin: 200% 0 0 -100%;
