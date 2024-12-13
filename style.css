@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20% 0 0 0;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    padding: 30px 32px;
+    cursor: pointer;
+    background: #f20044;
+    box-shadow: 10px 10px 100px  #f20044;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+@media (max-width: 450px) {
+    .botao {
+        margin-top: 80%;
+    }
+}
